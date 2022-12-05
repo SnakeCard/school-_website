@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.cabeceraN{
+    background-color:#3A78E8;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.cabeceraN img{
+    width: 320px;
+    padding: 10px 40px;
+    line-height: 100px;
+}
+.navN {
+    display: flex;
+    justify-content: space-between;
+}
+.navN-link {
+    text-decoration: none;
+    color:#F2C624;
+}
+.navN-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.navN-menu-item {
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma;
+    margin: 0 10px;
+    line-height: 100px;
+    width: max-content;
+}
+.navN-menu-link:hover {
+    color:white;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 6px ;
+    transition: 0.5s;
+}
+#sectionAN{
+    background: #E86751;
+    padding: 110px 0;
+    margin: 1px;
+}
+#sectionAN h2{
+    text-align: center;
+    font-size: 45px;
+    font-family:'Arial Narrow Bold', sans-serif;
+    padding: 30px 0;
+    color: #278C9C;
+}
+#sectionAN p{
+    text-align: left;
+    color: #692F25;
+    font-size: 25px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#sectionAN h3{
+    text-align: left;
+    color: #692F25;
+    font-size: 25px;
+    padding: 20px;
+    margin-left: 50px;
+}
+#sectionAN img{
+    width: 50%;
+    display: block;
+    margin-left: auto  ;
+    margin-right: auto; 
+    border: 4px solid #278C9C;
+}
+#sectionBN{
+    background: #278C9C;
+    margin: 1px;
+    padding: 30px;
+}
+#sectionBN h2{
+    text-align: center;
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler;
+    padding: 10px;
+    color: #E86751;
+}
+#sectionBN p{
+    text-align: left;
+    color: #ea4123;
+    font-size: 25px;
+    padding: 20px;
+    margin-left: 20px;
+}
+#sectionBN video{
+    display: flex;
+    width: 60%;
+    margin-left: auto  ;
+    margin-right: auto;
+    border: 4px solid #E86751;
+}
+.pieN{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 25px;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100px;
+}
+.pieN img{
+    width: 6%;
+    background: white;
+    margin-right: 10px;
+}
+@media screen and (max-width: 1024px){
+    .cabeceraN{
+        height: 80px;
+    }
+    .cabeceraN img{
+        width: 280px;
+        margin: auto;
+        line-height: 80px;
+    }
+    .navN-menu-item{
+        font-size: 14px;
+        line-height: 80px;
+    }
+    #sectionAN h2{
+        font-size: 40px;
+    }
+    #sectionAN p{
+        font-size: 20px;
+    }
+    #sectionAN h3{
+        font-size: 20px;
+    }
+    #sectionBN h2{
+        font-size: 40px;
+    }
+    #sectionBN p{
+        font-size: 20px;
+        color: black;
+    }
+    .pieN{
+        font-size: 18px;
+        height: 80px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .cabeceraN{
+        height: 65px;
+    }
+    .cabeceraN img{
+        width: 230px;
+        margin: auto;
+        line-height: 65px;
+    }
+    .navN-menu-item{
+        font-size: 12px;
+        line-height: 65px;
+    }
+    #sectionAN h2{
+        font-size: 30px;
+    }
+    #sectionAN p{
+        font-size: 18px;
+    }
+    #sectionAN h3{
+        font-size: 18px;
+    }
+    #sectionBN h2{
+        font-size: 30px;
+    }
+    #sectionBN p{
+        font-size: 18px;
+        color: black;
+    }
+    .pieN{
+        font-size: 14px;
+        height: 60px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .cabeceraN{
+        height: 45px;
+    }
+    .cabeceraN img{
+        width: 170px;
+        margin: auto;
+        line-height: 45px;
+    }
+    .navN-menu-item{
+        font-size: 10px;
+        line-height: 45px;
+    }
+    #sectionAN h2{
+        font-size: 25px;
+    }
+    #sectionAN p{
+        font-size: 15px;
+    }
+    #sectionAN h3{
+        font-size: 15px;
+    }
+    #sectionBN h2{
+        font-size: 25px;
+    }
+    #sectionBN p{
+        font-size: 15px;
+        color: black;
+    }
+    .pieN{
+        font-size: 10px;
+        height: 50px;
+    }
+}
